@@ -1,16 +1,15 @@
 ---
 layout: layouts/base.njk
 ---
-<!-- Delete this message, it will also remove the component CSS from the bundle -->
-{%- css %}{% include "public/css/message-box.css" %}{% endcss %}
-<div class="message-box">
-	<ol>
-		<li>Edit the <code>_data/metadata.js</code> with your blog’s information.</li>
-		<li>(Optional) Edit <code>eleventy.config.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li>
-		<li>Delete this message from <code>_includes/layouts/home.njk</code>.</li>
-	</ol>
-	<p><em>This is an <a href="https://www.11ty.dev/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
-</div>
-<!-- Stop deleting -->
+
+<section class="about">
+	<p class="about-text">Hey, I'm Hierro and I work in software engineering.</p>
+	<p class="about-text">
+		Currently living in Brazil. I like to work with Web regardless of the
+		technologies involved and I am currently building engaging acquisition
+		experiences for Itaú.
+	</p>
+	<p class="about-text">I also play volleybal a lot.</p>
+</section>
 
 {{ content | safe }}
