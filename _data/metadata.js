@@ -1,8 +1,8 @@
 module.exports = {
-	title: "flashing through",
+	title: "hey, I'm hierro",
 	url: "https://kasdk.dev/",
 	language: "en",
-	description: "I am writing about my experiences as a naval navel-gazer.",
+	description: "Website for me and my career.",
 	author: {
 		name: "Hierro Duarte",
 		email: "hierrodscherer@gmail.com",
