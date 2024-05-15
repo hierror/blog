@@ -4,7 +4,10 @@ numberOfLatestPostsToShow: 3
 ---
 
 {% set postsCount = collections.posts | length %}
+
+{% if postsCount > 0 %}
 <h1 class="page-title">Latest posts</h1>
+{% endif %}
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %} {% include "postslist.njk" %} {% set

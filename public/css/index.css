@@ -20,11 +20,11 @@
 	--color-gray-50: #c0c0c0;
 	--color-gray-90: #333;
 
-	--background-color: #fff;
+	--background-color: #fffcf7;
 
 	--text-color: var(--color-gray-90);
-	--text-color-link: #f25f5c;
-	--text-color-link-active: #f25f5c;
+	--text-color-link: #8963ba;
+	--text-color-link-active: #6a449c;
 
 	--syntax-tab-size: 2;
 }
@@ -49,6 +49,7 @@ body {
 	font-family: var(--font-family);
 	color: var(--text-color);
 	background-color: var(--background-color);
+	height: 100%;
 }
 html {
 	overflow-y: scroll;
@@ -144,8 +145,6 @@ header {
 }
 
 footer {
-	position: relative;
-	bottom: 0;
 	display: flex;
 	justify-content: center;
 	padding: 1em;
@@ -180,6 +179,9 @@ a.home-link:visited {
 }
 .nav a[href][aria-current="page"] {
 	text-decoration: underline;
+	text-decoration-thickness: 3px;
+	text-underline-offset: 0.5em;
+	font-weight: 600;
 }
 
 /* Posts list */
