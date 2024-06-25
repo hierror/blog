@@ -146,8 +146,13 @@ header {
 
 footer {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	padding: 1em;
+	margin: 1em 0;
+}
+
+.copyright {
+	margin: 0;
 }
 
 .home-link {
