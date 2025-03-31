@@ -382,7 +382,6 @@ h2 + .header-anchor {
 	a[href]:hover {
 		color: var(--color-black);
 		background-color: var(--color-yellow);
-		border: solid 1px var(--color-black);
 		padding: 0.25em 0.5em;
 	}
 
