@@ -351,11 +351,11 @@ h2 + .header-anchor {
 	font-size: 1.5rem;
 	white-space: nowrap;
 	margin: 0.25em 0;
-	animation: move-left-to-right linear 12.5s infinite;
+	animation: move-left-to-right linear 15s infinite;
 }
 
 .footer__text--backwards {
-	animation: move-left-to-right linear 12.5s infinite reverse;
+	animation: move-left-to-right linear 15s infinite reverse;
 }
 
 .fabric {
@@ -438,9 +438,8 @@ h2 + .header-anchor {
 		font-family: var(--font-family-text);
 		font-style: italic;
 		color: var(--color-black);
-		font-size: 1.25rem;
+		font-size: 1em;
 		background-color: var(--color-yellow);
-		border: solid 1px var(--color-black);
 	}
 }
 
