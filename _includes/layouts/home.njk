@@ -2,13 +2,60 @@
 layout: layouts/base.njk
 ---
 
-<section class="about">
-	<p class="about-text">I work in software engineering building engaging acquisition
-		experiences for <a href="https://www.itau.com.br/" target="_blank">Itaú</a>.</p>
-	<p class="about-text">
-		Based in Brazil, I love to solve problems and help people as I can, while also experimenting with the Web in the meantime.
-	</p>
-	<p class="about-text">I also play a lot of volleybal and read some manga.</p>
+<section class="home">
+	<header class="header">
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__item"><a href="/">home</a></li>
+				<li class="nav__item"><a href="/blog">blog</a></li>
+				<li class="nav__item">
+					<a href="https://github.com/hierror" target="_blank" rel="noopener"
+						>github</a
+					>
+				</li>
+				<li class="nav__item">
+					<a
+						href="https://www.linkedin.com/in/hierrodscherer/"
+						target="_blank"
+						rel="noopener"
+						>linkedin</a
+					>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="hero">
+		<h1 class="hero__title">
+			SOFTWARE <span class="hero__title--highlighted">ENGINEER</span> <br />
+			<span class="hero__title--serif">based in</span> <br />
+			<span class="hero__title--far-away">BRASIL</span>
+			<p class="hero__text">
+				you can read my posts <br />
+				or reach out through social media
+			</p>
+		</h1>
+		<div class="hero__cover">
+			<img width="511" height="681" src="/img/cover.jpg" />
+		</div>
+	</div>
 </section>
 
 {{ content | safe }}
+
+<footer class="footer">
+	<p class="footer__text">
+		web engineer scaredy cat manga reader volleyball player problem solver
+		mediocre footballer code perfectionist inconsistent reader lifelong learner
+		failed musician web engineer scaredy cat manga reader volleyball player
+		problem solver mediocre footballer code perfectionist inconsistent reader
+		lifelong learner failed musician
+	</p>
+	<p class="footer__text footer__text--backwards">
+		code perfectionist mediocre footballer failed musician manga reader web
+		engineer volleyball player problem solver inconsistent reader lifelong
+		learner scaredy cat code perfectionist mediocre footballer failed musician
+		manga reader web engineer volleyball player problem solver inconsistent
+		reader lifelong learner scaredy cat
+	</p>
+</footer>

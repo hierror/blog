@@ -1,0 +1,31 @@
+@font-face {
+	font-family: "Alte Haas Grotesk";
+	src: url("../font/AlteHaasGroteskBold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Alte Haas Grotesk";
+	src: url("../font/AlteHaasGroteskRegular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "PT Serif Caption";
+	src: url("../font/PTSerifCaption-Italic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "PT Serif Caption";
+	src: url("../font/PTSerifCaption-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
