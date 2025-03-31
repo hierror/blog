@@ -45,7 +45,6 @@
 
 html,
 body {
-	height: 100vh;
 	padding: 0;
 	margin: 0 auto;
 	font-family: var(--font-family);
@@ -54,7 +53,8 @@ body {
 }
 
 .body {
-	overflow: hidden;
+	height: 100vh;
+	position: relative;
 }
 
 .visually-hidden {
@@ -343,6 +343,7 @@ h2 + .header-anchor {
 	bottom: 0;
 	margin: 1em 0;
 	z-index: var(--z-top);
+	overflow: hidden;
 }
 
 .footer__text {
@@ -416,13 +417,12 @@ h2 + .header-anchor {
 	}
 
 	.hero__cover {
-		width: 150%;
 		max-width: unset;
-		height: auto;
+		width: 150%;
+		height: 820px;
 		bottom: 0;
 		z-index: var(--z-bottom);
-		transform: translate(30%, 20%);
-		clip-path: inset(30% 0 0 0);
+		overflow: hidden;
 	}
 
 	.footer__text {
