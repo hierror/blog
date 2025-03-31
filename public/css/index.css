@@ -52,11 +52,6 @@ body {
 	background-color: var(--background-color);
 }
 
-.body {
-	height: 100vh;
-	position: relative;
-}
-
 .visually-hidden {
 	clip: rect(0 0 0 0);
 	clip-path: inset(50%);
@@ -372,6 +367,10 @@ h2 + .header-anchor {
 }
 
 @media (max-width: 992px) {
+	a[href]:active {
+		color: var(--color-yellow);
+	}
+
 	a[href] {
 		padding: 0.25em 0.5em;
 	}
@@ -419,7 +418,7 @@ h2 + .header-anchor {
 	.hero__cover {
 		max-width: unset;
 		width: 150%;
-		height: 820px;
+		height: 92.5%;
 		bottom: 0;
 		z-index: var(--z-bottom);
 		overflow: hidden;
