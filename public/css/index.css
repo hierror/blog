@@ -402,12 +402,15 @@ h2 + .header-anchor {
 		margin: 2em auto 0;
 	}
 
-	.hero__title--highlighted {
+	.hero__title * {
 		padding: 0.15em 0.25em;
-		margin-left: 1em;
-		line-height: 2em;
+		line-height: 1.25em;
 		background-color: var(--color-yellow);
-		border: solid 2px var(--color-black);
+		border: none;
+	}
+
+	.hero__title--highlighted {
+		margin-left: 1em;
 	}
 
 	.hero__title--serif {
@@ -423,7 +426,6 @@ h2 + .header-anchor {
 		width: 150%;
 		height: 90%;
 		bottom: 0;
-		transform: translateX(25%);
 		z-index: var(--z-bottom);
 		overflow: hidden;
 	}
