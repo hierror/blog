@@ -53,6 +53,10 @@ body {
 	background-color: var(--background-color);
 }
 
+.body {
+	overflow: hidden;
+}
+
 .visually-hidden {
 	clip: rect(0 0 0 0);
 	clip-path: inset(50%);
@@ -417,7 +421,7 @@ h2 + .header-anchor {
 		height: auto;
 		bottom: 0;
 		z-index: var(--z-bottom);
-		transform: translate(30%, 15%);
+		transform: translate(30%, 20%);
 		clip-path: inset(30% 0 0 0);
 	}
 
