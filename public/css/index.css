@@ -418,7 +418,7 @@ h2 + .header-anchor {
 	.hero__cover {
 		max-width: unset;
 		width: 150%;
-		height: 92.5%;
+		height: 90%;
 		bottom: 0;
 		z-index: var(--z-bottom);
 		overflow: hidden;
